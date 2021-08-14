@@ -1,0 +1,149 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color:#f4f4f4;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+.red {
+	color: indianred;
+}
+.green {
+	color: green;
+}
+
+.pagination-block {
+	display: flex;
+	justify-content: center;
+}
+.m-table th:hover {
+	background-color: rgb(236, 206, 206);
+	cursor: pointer;
+}
+.table-wrapper {
+	height: 80vh;
+	overflow-y: auto;
+}
+.search-bar-wrapper {
+	width: 50%;
+	margin: auto;
+}
+.table-wrapper {
+	width: 95%;
+	margin: auto;
+	box-sizing: border-box;
+}
+.user-form {
+	width: 50%;
+	margin: auto;
+	text-align: left;
+}
+.m-card {
+	width: 400px;
+}
+.m-card img {
+	width: 100%;
+}
+.nav-list li {
+	margin-left: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+}
+.m-navbar {
+	padding: 10px;
+	display: flex;
+	height: 60px;
+	justify-content: flex-end;
+	align-items: center;
+	background: #FF6B6B;
+	margin-bottom: 20px;
+}
+.m-navbar .nav-list {
+	display: flex;
+	align-items: center;
+}
+
+.sidebar-links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+	height: 90px;
+	width: 90px;
+	border-radius: 10px;
+}
+
+.sidebar-links.active {
+	background-color: #303f9f;
+}
+.d-sm-cards {
+	border-radius: 10px !important;
+	height: 100px;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.maroon-card {
+	background-color: #9DDAC6;
+	
+}
+.indigo-card {
+	background-color: #9DDAC6;
+}
+/* .orange-card {
+	
+} */
+.c-btn {
+	color: #ffffff;
+	background:#303f9f;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.p-errors {
+	color: red;
+}
+.tabs-wrapper {
+	flex-wrap: wrap;
+}
+.m-overlay {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.m-overlay.active {
+	z-index: 100;
+	background-color: black;
+	opacity: 0.8;
+}
+.profile {
+	cursor:pointer;
+}
+.list-item{
+	cursor:pointer;
+}
+.gray-bg{
+	background:#f3f3f3;
+}
